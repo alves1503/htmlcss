@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: '[link]';
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Personaliando links</h1>
+    <ul>
+        <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/06%20-%20Imagens%20e%20Favicon.pdf">
+            <li>Repositorio GitHub</li>
+        </a>
+        <a href="https://www.youtube.com/watch?v=c47pwDQmxEA">
+            <li>Canal YouTube</li>
+        </a>
+        <a href="https://www.cursoemvideo.com/cursos/">
+            <li>Site Curso em video</li>
+        </a>
+    </ul>
+</body>
+</html>

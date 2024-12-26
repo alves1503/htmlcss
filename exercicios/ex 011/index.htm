@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica </title>
+</head>
+<body>
+    <h1>imagens dinamicas </h1>
+    <p>Tente abrir esse site em varios dispositivos diferente ou diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/media.png" type="image/png">
+        <img src="./Imagens/grande.png" alt="Imagem flexivel">
+    </picture>
+    <h2>Adicionando audios</h2>
+    <p>Aqui voçê pode adicionar audios no  seu site</p>
+    <audio src="./midia/audioo teste].mp3" controls autoplay>  </audio>
+   
+    <audio preload="metadata" autoplay controls loop>
+        <source src="./midia/audioo teste].mp3" type="audio/mpeg">
+        <source src="./midia/audioo teste].mp3" type="audio/ogg">
+        <source src="./midia/audioo teste].mp3" type="audio/wav">
+    </audio>
+</body>
+</html>
